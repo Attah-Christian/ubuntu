@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    }
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    }
+
+.main-text {
+  color: yellow;
+  text-align: justify;
+}
+.main-text #about {
+  color: yellow;
+  text-align: center;
+
+}
+
+.main-text .welc{
+  color: yellow;
+  text-align: justify;
+}
+footer {
+  margin-left: 20px
+}
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+.logo .ubuntu {
+  color: red;
+}
+.cent {
+  text-align: center;
+}
+.cent .red {
+  color: red;
+}
+.fill {
+  text-align: center;
+  color: #fff;
+}
+form {
+  text-align: center;
+}
+form input {
+  height: 40px;
+  width: 300px;
+  background-color: black;
+  color: white;
+}
+form textarea {
+  height: 100px;
+  width: 300px;
+  background-color: black;
+  color: white;
+}
+form button {
+  height: 40px;
+  width: 300px;
+  background-color: green;
+  color: white;
+}
+.contact {
+    background-color: black;
+    opacity: 40%;
+    color: white;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+.sucesstx img{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+}
+
+.sucesstx h5 {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.home_butt a {
+  text-align: center;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.cont h1 {
+  text-align: center;
+}

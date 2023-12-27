@@ -1,0 +1,25 @@
+{% block pagecontent %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success!!! </title>
+    <link rel="stylesheet" href="static/css/main.css">
+</head>
+<body>
+  <div class="sucesstx">
+    <div class="success">
+      <img src="static/media/success.jpeg" alt="">
+    </div>
+    <h5>
+      Thank you for contacting us, a hacker will respond to you within 24 hours. <br><br><br><br>
+      <div class="home_butt">
+        <a href="{% url 'contact' %}">Home</a>
+      </div>
+    </h5>
+  </div>
+
+</body>
+</html>
+{% endblock %}

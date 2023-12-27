@@ -1,0 +1,116 @@
+{% block pagecontent %}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Now</title>
+    <link rel="stylesheet" href="static/css/main.css">
+</head>
+<body>
+  <div class="contact">
+    <video autoplay muted loop plays-inline class="background-video">
+        <source src="static/media/background.mp4" type="video/mp4">
+    </video>
+
+    <span class="logo">
+      <img src="static/media/ubuntu.jpg" alt=""><span class="ubuntu">UBUNTU GROUP</span>
+    </span><br><br><br><br><br><br><br><br>
+
+    <div class="cent">
+      Are you a victim of a scam???? <div class="red"><br>
+        RECOVER YOUR MONEY NOW!!! <br>
+      </div>
+    </div> <br><br><br>
+    <div class="cont">
+      <h1>
+        &darr;&darr;&darr; Contact Us &darr;&darr;&darr;
+      </h1>
+    </div>
+    <div class="fill">
+      PLEASE FILL AND SUBMIT THE FORM BELOW, OUR TEAM MEMBER WOULD GET IN TOUCH WITH YOU SHORTLY.
+    </div> <br><br>
+      <form action="{% url 'contact' %}" method="POST">
+          {% csrf_token %}
+
+          <div>
+              <label for="First Name">First Name</label><br>
+              <input type="text" name="firstname" placeholder="First Nmae" required>
+          </div>
+          <br>
+
+          <div>
+              <label for="Last Name">Last Name</label><br>
+              <input type="text" name="lastname" placeholder="Last Nmae" required>
+          </div>
+          <br>
+
+          <div>
+              <label for="email">Email</label><br>
+              <input type="text" name="email" placeholder="email" required>
+          </div>
+          <br>
+
+          <div>
+              <label for="Phone">Phone</label><br>
+              <input type="number" name="phone" placeholder="Phone" required>
+          </div>
+          <br>
+
+          <div>
+              <label for="Country">Country</label><br>
+              <input type="text" name="country" placeholder="country" required>
+          </div>
+          <br>
+
+          <div>
+              <label for="Country">Message</label><br>
+              <textarea name="message" id="" cols="30" rows="10" placeholder="message(optional)"></textarea>
+          </div>
+          <br>
+
+          <button type="submit">Submit</button>
+      </form> <br><br><br><br><br>
+
+    <div class="main-text">
+          <h1 id="about">
+            &spades; About us &spades;
+          </h1><br>
+
+          <p class="welc">
+            Welcome to Ubuntu group, here we have professional hackers working remotely and around the clock to help you
+            recover your lost assets.
+            <br><br><br>
+            We work globally and have been doing this since 2017. We have recovered funds for victims in different parts of
+            the world.
+            US, Uk, Australia, Canada, Sweden, etc.
+            <br><br><br>
+            We are happy you are here and can't wait to help you recoup your lost funds.
+
+            Ubuntu Group is a recovery organization founded in 2017 by a group of anonymous hackers dedicated to helping scam
+            victims get justice. We have done hundreds of recoveries over the years and impacted the lives of people
+            positively.
+            <br><br><br>
+            Over the years, we have had a great number of successes and a few failures. Our recent statistics show that we
+            have had a 93% success rate in all our recoveries, with only a 7% failure rate. For those we failed to help, we
+            made donations to them from our donation box donated by victims of scam after a successful
+            recovery.
+            <br><br>
+            We are ready to help you, contact us now!
+          </p>
+
+    </div><br><br><br>
+
+    <footer>
+      &copy; UbuntuGroup
+    </footer>
+  </div>
+
+
+</body>
+</html>
+
+{% endblock %}
