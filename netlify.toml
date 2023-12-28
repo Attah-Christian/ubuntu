@@ -1,4 +1,10 @@
 [[redirects]]
 from = "/*"
-to = "/templates"
+to = "templates/index,html"
+status = 200
+
+
+[[redirects]]
+from = "/index.html"
+to = "/success.html"
 status = 200
