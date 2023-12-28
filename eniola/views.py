@@ -4,7 +4,7 @@ from .models import UserFormGrabber
 
 
 
-def contact(request):
+def index(request):
     if request.method == "POST":
         firstname = request.POST['firstname']
         lastname = request.POST['lastname']
@@ -20,7 +20,7 @@ def contact(request):
 
         return redirect('success')
     else:
-        return render(request, 'contact.html')
+        return render(request, 'index.html')
 
 
 def success(request):

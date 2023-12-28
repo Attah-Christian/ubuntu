@@ -3,6 +3,6 @@ from eniola import views
 
 
 urlpatterns = [
-    path('', views.contact, name='contact'),
+    path('', views.index, name='index'),
     path('success', views.success, name='success')
 ]
