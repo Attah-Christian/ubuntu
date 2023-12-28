@@ -1,0 +1,63 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$B0oOHHLyyiu7ShdxNjuHb3$TNqv2O/470WJvxF+6qudJ6qRD7gMl2TOuZ8+8zRlJd0=",
+        "last_login": "2023-12-27T23:30:53.840Z",
+        "is_superuser": true,
+        "username": "PopeyeOnly",
+        "first_name": "",
+        "last_name": "",
+        "email": "email@email.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-12-27T23:27:20.198Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rnge0okxar2f8olam4vcsnzzmg4spr55",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-xLGXkp4zRLvrNQ6gRIqTCnF3iJQC2jcz76UG3NY6bE2WYczqrKw6_W6E_JBpB_mO023WPE_rMpLeFX3Qpq9zluflcP8OKrb6rb1kDFAMRfEB-pC9LVAwWSHqxEgEcIkxuWSYo8sM0jswPhBI6IjV-wP2hjhK:1rIdMT:2fQVBEo4ajfOltt-ey2fWmVDhdbj5fspRWDpeeLvRjM",
+        "expire_date": "2024-01-10T23:30:53.842Z"
+    }
+},
+{
+    "model": "eniola.userformgrabber",
+    "pk": 1,
+    "fields": {
+        "firstname": "Attah",
+        "lastname": "Christian ",
+        "email": "Christanattah008@gmail.com",
+        "phone": 6315050484,
+        "country": "Nigeria",
+        "message": "hi"
+    }
+},
+{
+    "model": "eniola.userformgrabber",
+    "pk": 2,
+    "fields": {
+        "firstname": "Attah",
+        "lastname": "Christian ",
+        "email": "Christanattah008@gmail.com",
+        "phone": 6315050484,
+        "country": "Nigeria",
+        "message": "hi"
+    }
+},
+{
+    "model": "eniola.userformgrabber",
+    "pk": 3,
+    "fields": {
+        "firstname": "Eniola",
+        "lastname": "Abosede",
+        "email": "ataa@gmail.com",
+        "phone": 6315050484,
+        "country": "Nigeria",
+        "message": "hi"
+    }
+}
+]
