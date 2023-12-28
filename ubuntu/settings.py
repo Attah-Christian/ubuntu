@@ -76,18 +76,18 @@ WSGI_APPLICATION = 'ubuntu.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {'default': dj_database_url.config(default='postgres://postgres:patonly@localhost/postgres')}
+# DATABASES = {'default': dj_database_url.config(default='postgres://postgres:patonly@localhost/postgres')}
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'postgres',
-#         'USER': 'postgres',
-#         'PASSWORD': 'patonly',
-#         'HOST': 'localhost',
-#         'PORT': '5433'
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'patonly',
+        'HOST': 'localhost',
+        'PORT': '5433'
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
