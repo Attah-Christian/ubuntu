@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@ex9p)nud7#)@_7szqy7y1qi!c5bqxya$oy%wu7h(v$_cqb@a5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ubuntugroup.netlify.app', 'www.ubuntugroup.netlify.app']
 
 
 # Application definition
